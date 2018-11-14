@@ -1,10 +1,9 @@
 # coding
-gzcc:coding chloe$ vi ex1.py
-gzcc:coding chloe$ chmod +x ex1.py
-gzcc:coding chloe$ pwd
-/Users/chloe/python_study/coding
-gzcc:coding chloe$ atom .
-gzcc:coding chloe$ git status
+
+making some Changes ex1.py
+
+to see what changes locally:  git status
+
 On branch master
 Your branch is up-to-date with 'origin/master'.
 Untracked files:
@@ -12,25 +11,20 @@ Untracked files:
 
 	ex1.py
 
-nothing added to commit but untracked files present (use "git add" to track)
+to add new or modified file
 gzcc:coding chloe$ git add ex1.py
-gzcc:coding chloe$ git status
-On branch master
-Your branch is up-to-date with 'origin/master'.
-Changes to be committed:
-  (use "git reset HEAD <file>..." to unstage)
 
-	new file:   ex1.py
+
+then commit the changes use:
 
 gzcc:coding chloe$ git commit -m"initial save"
 [master a63152d] initial save
  1 file changed, 3 insertions(+)
  create mode 100755 ex1.py
-gzcc:coding chloe$ git status
-On branch master
-Your branch is ahead of 'origin/master' by 1 commit.
-  (use "git push" to publish your local commits)
-nothing to commit, working tree clean
+
+Then upload to the internet repo use:
+
+
 gzcc:coding chloe$ git push
 Counting objects: 3, done.
 Delta compression using up to 8 threads.
